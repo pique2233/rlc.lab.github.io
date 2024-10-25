@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIL Lab</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2.5rem;
+    color: #444;
+    line-height: 1.2;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.logo a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+}
+
+nav ul li a.active {
+    color: #007bff;
+}
+nav ul li :hover{
+            color: #007bff;
+        }
+
+.hero {
+    margin: 20px 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer hr {
+    width: 80%;
+    margin: 20px auto;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+</style>
+<body>
+    <div class="container">
+        <!-- Logo and Lab Name -->
+        <header>
+            <div class="logo">
+                <h1>RLC</h1>
+                <p>Robotic AI & Learning Lab</p>
+                <p><a href="#">@ BAIR</a></p>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav>
+                <ul>
+                    <li><a href="Home3.html" class="active">home</a></li>
+                    <li><a href="People2.html">people</a></li>
+                    <li><a href="Direction.html">direction</a></li>
+                    <li><a href="Activity.html">activity</a></li>
+                    <li><a href="contact.html" >contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Image Section -->
+        <section class="hero">
+            <img src="截屏2024-10-19 17.30.32.png" alt="Group Photo" class="hero-image">
+        </section>
+
+        <!-- Introductory Text -->
+        <section class="intro">
+            <p>Welcome to the RAIL lab website! Our research focus is to enable machines to exhibit flexible and adaptable behavior, acquired autonomously through learning. To that end, we work on learning algorithms, robotics, and computer vision.</p>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <hr>
+            <p>Copyright © UC Berkeley RAIL Lab 2017</p>
+            <p>Contact: <a href="mailto:contact@raillab.berkeley.edu">contact@raillab.berkeley.edu</a></p>
+        </footer>
+    </div>
+</body>
+</html>
